@@ -1,12 +1,50 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Screenshot](./public/screenshot.png) <!-- Add your screenshot here -->
 
-Currently, two official plugins are available:
+A modern, responsive portfolio website built with React, Tailwind CSS, and Framer Motion. Showcases your skills as a Frontend Developer with sections for projects, education, and contact information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+✨ **Modern UI Components**
+- Responsive design for all devices
+- Animated transitions with Framer Motion
+- Interactive skill cards with progress bars
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📄 **Complete Sections**
+- Hero section with profile picture
+- About me section
+- Skills with proficiency indicators
+- Projects showcase
+- Education background (including Textile Engineering)
+- Contact form
+
+⚡ **Performance Optimized**
+- Lazy-loaded components
+- Optimized assets
+- Minimal dependencies
+
+## Technologies Used
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+
+**Core Stack:**
+- React.js
+- Tailwind CSS
+- Framer Motion (animations)
+- React Icons
+- React AOS (scroll animations)
+
+**Additional Tools:**
+- Vite (build tool)
+- react-to-pdf (resume export)
+- react-scroll (smooth scrolling)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/touhid2025/touhid-bin-amin.git
+   cd portfolio
