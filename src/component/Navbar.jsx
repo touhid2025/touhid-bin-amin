@@ -19,7 +19,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed  rounded-2xl top-10/12 md:top-2 w-fit backdrop-blur-md z-50">
+    <nav className="fixed bg-white/20  rounded-2xl top-10/12 md:top-2 w-fit backdrop-blur-md z-50">
       <div className="max-w-6xl mx-auto px-4 py-3">
         {/* Desktop Navigation */}
         <div className="flex text-gray-400 justify-center items-center space-x-3 md:space-x-8">

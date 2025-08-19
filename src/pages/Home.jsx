@@ -39,12 +39,12 @@ function Home() {
           <a href="https://github.com/touhid2025" className="text-2xl hover:text-gray-300 transition">
             <FaGithub />
           </a>
-          <a href="" className="text-2xl hover:text-gray-300 transition">
+          <a href="https://www.linkedin.com/in/touhid-bin-amin" className="text-2xl hover:text-gray-300 transition">
             <FaLinkedin />
           </a>
-          <a href="" className="text-2xl hover:text-gray-300 transition">
+          {/* <a href="" className="text-2xl hover:text-gray-300 transition">
             <FaTwitter />
-          </a>
+          </a> */}
         </div>
         <p>&copy; {new Date().getFullYear()} Touhid. All rights reserved.</p>
       </footer>

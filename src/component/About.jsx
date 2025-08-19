@@ -1,6 +1,8 @@
+
+
 const About = () => {
   return (
-    <section id="about" className="py-20" data-aos="zoom-in">
+    <section id="about" className="py-20" data-aos="fade-down">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-amber-400 text-center">About Me</h2>
         

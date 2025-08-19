@@ -1,9 +1,11 @@
 import { motion } from 'framer-motion'
 import touhid from '../assets/touhid.jpg'
 
+
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center pt-16">
+      
       <div className="text-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -14,7 +16,7 @@ const Hero = () => {
           <img 
             src={touhid}
             alt="Profile" 
-            className="w-32 h-32 md:w-48 md:h-48 rounded-full border-4 border-indigo-500 object-cover mx-auto"
+            className="w-32 h-32 md:w-48 md:h-48 rounded-full border-4 border-amber-500 object-cover mx-auto"
           />
         </motion.div>
         
@@ -48,7 +50,7 @@ const Hero = () => {
             Contact Me
           </a>
           <a 
-            href="/resume.pdf" 
+            href="https://drive.google.com/file/d/1qkD8ydWD60mkIDY7saKcJ7Eiik76nDn-/view?usp=drivesdk" 
             download
             className="border border-amber-400 hover:text-black text-amber-400 px-6 py-3 rounded-lg inline-block hover:bg-amber-400  transition"
           >
